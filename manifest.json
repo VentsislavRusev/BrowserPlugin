@@ -1,0 +1,14 @@
+{
+    "name": "URL Connector",
+    "version": "0.1.0",
+    "description": "Creates QRcode from links open in the browser. Then when they get scanned with QRCode reader on the mobile phone opens the link in the browser.",
+    "permissions": ["tabs"],
+    "background": {
+        "scripts": ["qrcode.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
